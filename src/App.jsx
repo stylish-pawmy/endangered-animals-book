@@ -22,7 +22,9 @@ function App() {
     <>
       <TopBar />
       <main>
-        {animalCards}
+        <div className="card--container">
+          {animalCards}
+        </div>
       </main>
     </>
   )

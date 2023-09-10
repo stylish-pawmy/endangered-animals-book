@@ -22,6 +22,10 @@
   --dark-tone: #03071e;
 }
 
+#root {
+  width: 100vw;
+}
+
 a {
   font-weight: 500;
   color: var(--umber);
