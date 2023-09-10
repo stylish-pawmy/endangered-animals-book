@@ -7,7 +7,20 @@ function App() {
     <>
       <TopBar />
       <main>
-        <Card />
+        <Card
+          key={0}
+          img="/public/white-tiger.jpg"
+          location="India"
+          locationLink="https://goo.gl/maps/wDkYMztGXFNhJyao6"
+          title="The White Tiger"
+          altNames="Ghost Tiger, Royal White Tiger"
+          description="The white tiger, scientifically known as Panthera tigris,
+          is a majestic and rare subspecies of the Bengal tiger 
+          (Panthera tigris tigris). What sets the white tiger apart
+          from its orange counterparts is its unique genetic 
+          variation, resulting in a striking coat coloration characterized
+          by white fur with black stripes."
+        />
       </main>
     </>
   )
