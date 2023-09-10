@@ -39,3 +39,66 @@ header {
           font-family: 'Amatic SC', cursive;
           color: var(--tea-green);
         }
+
+.card {
+  --gap-size: 20px;
+  display: flex;
+  flex-direction: row;
+  column-gap: var(--gap-size);
+
+  min-height: 220px;
+
+  padding: 10px;
+
+  border: var(--umber) dotted;
+}
+
+    .card > img {
+      height: 224px;
+      aspect-ratio: 3 / 4;
+      object-fit: cover;
+      border-radius:5px;
+      flex-shrink: 1;
+      flex-grow: 0;
+    }
+
+    .card--body {
+      display: flex;
+      flex-direction: column;
+      justify-content: start;
+      flex: 1 1 auto;
+      gap: 5px;
+    }
+
+    .card--body > * {
+      margin: 0;
+      padding: 0;
+    }
+
+    .card--location {
+      font-size: 18px;
+      font-weight: 400;
+      display: flex;
+      align-items: baseline;
+      gap: 5px;
+    }
+
+    .card--location > img {
+      width: 8.5px;
+    }
+
+    .card--location > a, .card--location > a::after {
+      font-weight: 400;
+      font-size: 12px;
+    }
+
+    .card--title {
+      font-size: 48px;
+      font-weight: 700;
+      font-family: 'Amatic SC';
+    }
+
+    .card--alt-name {
+      font-size: 12px;
+      font-weight: 900;
+    }
